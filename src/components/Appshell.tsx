@@ -55,14 +55,14 @@ function Appshell() {
           </ul>
         </nav>
       </div>
-      <div className="py-6 relative">
+      <div className={"py-6 relative"}>
         <Outlet />
       </div>
 
       {navOpen && (
         <>
-          <div className="absolute z-10 top-0 right-0 md:w-2/3 w-full h-screen bg-white">
-            <div className="relative flex items-center justify-center">
+          <div className="fixed z-10 top-0 right-0 md:w-2/3 w-full h-screen bg-white">
+            <div className="relative flex items-center justify-center h-full">
               <ul className="flex flex-col justify-center items-center h-full gap-6">
                 <li>
                   <NavLink href="/">Home</NavLink>
@@ -77,7 +77,10 @@ function Appshell() {
                   <NavLink href="/galery">Galery</NavLink>
                 </li>
               </ul>
-              <div className="absolute top-10 right-10">
+              <div
+                onClick={() => setNavOpen(!navOpen)}
+                className="absolute top-10 right-10 text-gray-700/80"
+              >
                 {navOpen ? (
                   <IoClose className="size-8" />
                 ) : (
@@ -86,7 +89,7 @@ function Appshell() {
               </div>
             </div>
           </div>
-          <div className="hidden md:flex z-0 md:absolute top-0 bottom-0 right-0 left-0 bg-black/70"></div>
+          <div className="hidden md:flex z-0 md:fixed top-0 bottom-0 right-0 left-0 bg-black/70"></div>
         </>
       )}
       <div className="flex flex-col border-t-2 border-gray-400/10 space-y-6 py-6">
