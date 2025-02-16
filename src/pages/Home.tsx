@@ -11,7 +11,7 @@ function Home() {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
-          className="sm:absolute bottom-0 left-0 right-0 text-center bg-white/80 text-grey-800 px-6 py-4 "
+          className="sm:absolute bottom-0 left-0 right-0 text-center sm:bg-white/80 text-grey-800 px-6 py-4 "
         >
           <h1 className="text-lg font-bold">Welcome to</h1>
           <h1 className="text-4xl font-bold font-display">
@@ -79,7 +79,7 @@ function Home() {
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
-          className="flex flex-col gap-2 mr-64"
+          className="flex flex-col gap-2 sm:mr-64"
         >
           <h2 className="text-lg font-bold">Why choose Us?</h2>
           <ul className="list-disc px-4">
