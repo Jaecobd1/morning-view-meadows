@@ -1,5 +1,3 @@
-import { createTheme, ThemeProvider } from "@mui/material";
-import { yellow } from "@mui/material/colors";
 import React from "react";
 import { FaFacebookF } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";

@@ -1,8 +1,7 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@mui/material";
 import altar from "../assets/altar.png";
-import brideAndGroom from "../assets/bride-and-groom.png";
+// import brideAndGroom from "../assets/bride-and-groom.png";
 
 function About() {
   return (
