@@ -74,7 +74,7 @@ function Appshell() {
                   <NavLink href="/calendar">Calendar</NavLink>
                 </li>
                 <li>
-                  <NavLink href="/galery">Galery</NavLink>
+                  <NavLink href="/gallery">Gallery</NavLink>
                 </li>
               </ul>
               <div

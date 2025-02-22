@@ -8,6 +8,12 @@
   --font-body: "Lustria", serif;
 }
 
+.leaflet-container {
+  height: 400px; /* Adjust as needed */
+  width: 100%;
+  z-index: 0;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
