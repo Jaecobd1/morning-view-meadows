@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
-import { Button } from "@mui/material";
-import altar from "../assets/altar.png";
-import Map from "../components/Map";
-import { FaMapLocationDot } from "react-icons/fa6";
+// import { Button } from "@mui/material";
+// import altar from "../assets/altar.png";
+// import Map from "../components/Map";
 import { FaPhone, FaEnvelope, FaFacebookF } from "react-icons/fa6";
 // import brideAndGroom from "../assets/bride-and-groom.png";
 
