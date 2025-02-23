@@ -31,32 +31,46 @@ function About() {
   return (
     <div>
       <div className="min-h-[400px] flex flex-col md:flex-row md:items-center gap-4 justify-center my-6">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 my-6">
           <motion.h2
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.5, ease: "easeInOut" }}
-            className="text-lg font-bold"
+            className="text-2xl font-bold"
           >
-            About Morning View Meadows
+            A Countryside Escape for Unforgettable Celebrations
+          </motion.h2>
+
+          <motion.h2
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            className="text-lg italic"
+          >
+            A Hidden Gem in Kentucky’s Countryside
           </motion.h2>
           <motion.p
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.5, ease: "easeInOut" }}
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
-            iure ducimus facilis quia in, sint eveniet deleniti nemo ipsa
-            dignissimos soluta quod alias voluptas quo ex quos! Dicta, atque
-            cum!
+            Tucked away in the serene hills of Morning View, KY, Morning View
+            Meadows is a breathtaking wedding venue where rustic charm meets
+            timeless elegance. Whether you dream of exchanging vows under the
+            open sky, dancing in a beautifully restored barn, or celebrating
+            with loved ones in a tranquil countryside setting, we’re here to
+            make your vision come to life.{" "}
           </motion.p>
+
           <motion.div
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.5, ease: "easeInOut" }}
             className="text-lg font-bold"
           >
-            <Button variant="outlined">Book Now</Button>
+            <a href="/contact">
+              <Button variant="outlined">Book Now</Button>
+            </a>
           </motion.div>
         </div>
         <motion.div
@@ -67,6 +81,50 @@ function About() {
         >
           <img src={altar} alt="altar" className="w-full object-cover " />
         </motion.div>
+      </div>
+      <div className="min-h-[400px] flex flex-col md:flex-row md:items-center gap-4 justify-center my-6">
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
+          className="max-h-72 md:max-h-92 overflow-hidden"
+        >
+          <img src={altar} alt="altar" className="w-full object-cover " />
+        </motion.div>
+        <div className="flex flex-col gap-2 my-6">
+          <motion.h2
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            className="text-2xl font-bold"
+          >
+            The Story Behind Morning View Meadows
+          </motion.h2>
+
+          <motion.p
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+          >
+            Morning View Meadows was founded with a passion for love, nature,
+            and timeless celebrations. Originally a historic farm, our venue has
+            been thoughtfully transformed into a romantic event space while
+            preserving its authentic charm. With a commitment to hospitality, we
+            welcome couples to create unforgettable moments in this magical
+            setting.
+          </motion.p>
+
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            className="text-lg font-bold"
+          >
+            <a href="/contact">
+              <Button variant="outlined">Book Now</Button>
+            </a>
+          </motion.div>
+        </div>
       </div>
       <motion.div
         initial={{ y: 100, opacity: 0 }}

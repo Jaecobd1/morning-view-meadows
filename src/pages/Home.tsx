@@ -13,13 +13,12 @@ function Home() {
           transition={{ duration: 1.5, ease: "easeInOut" }}
           className="sm:absolute bottom-0 left-0 right-0 text-center sm:bg-white/80 text-grey-800 px-6 py-4 "
         >
-          <h1 className="text-lg font-bold">Welcome to</h1>
-          <h1 className="text-4xl font-bold font-display">
+          <h1 className="text-lg md:text-2xl font-bold">Welcome to</h1>
+          <h1 className="text-4xl md:text-6xl font-bold font-display">
             Morning View Meadows
           </h1>
-          <p className="">
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
+          <p className="text-sm md:text-lg">
+            Where Rustic Charm Meets Timeless Elegance
           </p>
         </motion.div>
         <img src={hero} alt="hero" className="w-full object-cover" />
@@ -32,17 +31,18 @@ function Home() {
             transition={{ duration: 1.5, ease: "easeInOut" }}
             className="text-lg font-bold"
           >
-            Our Venue
+            About Us
           </motion.h2>
           <motion.p
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.5, ease: "easeInOut" }}
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
-            iure ducimus facilis quia in, sint eveniet deleniti nemo ipsa
-            dignissimos soluta quod alias voluptas quo ex quos! Dicta, atque
-            cum!
+            Nestled in the rolling countryside of Morning View, KY, Morning View
+            Meadows is a stunning barn wedding venue offering both indoor and
+            outdoor spaces for up to 250 guests. With breathtaking views,
+            charming rustic elegance, and full-service accommodations, it’s the
+            perfect setting for your special day.
           </motion.p>
           <motion.div
             initial={{ y: 100, opacity: 0 }}
@@ -50,7 +50,9 @@ function Home() {
             transition={{ duration: 1.5, ease: "easeInOut" }}
             className="text-lg font-bold"
           >
-            <Button variant="outlined">Book Now</Button>
+            <a href="/about">
+              <Button variant="outlined">Learn More</Button>
+            </a>
           </motion.div>
         </div>
         <motion.div

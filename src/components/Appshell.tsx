@@ -41,16 +41,16 @@ function Appshell() {
         <nav className="flex justify-center">
           <ul className=" gap-2 hidden md:flex">
             <li>
-              <a href="/">Home</a>
+              <NavLink href="/">Home</NavLink>
             </li>
             <li>
-              <a href="/about">About</a>
+              <NavLink href="/about">About</NavLink>
             </li>
             <li>
-              <a href="/calendar">Calendar</a>
+              <NavLink href="/calendar">Calendar</NavLink>
             </li>
             <li>
-              <a href="/gallery">Gallery</a>
+              <NavLink href="/gallery">Gallery</NavLink>
             </li>
           </ul>
         </nav>
