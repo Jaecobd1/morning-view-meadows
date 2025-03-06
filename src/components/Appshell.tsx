@@ -23,9 +23,9 @@ function Appshell() {
   const [navOpen, setNavOpen] = React.useState(false);
   return (
     <div className="bg-white min-h-screen font-body px-12 py-6">
-      <div className="flex-col relative items-center ">
+      <div className="flex-col items-center ">
         {/* <p className="flex justify-center">logo</p> */}
-        <div className="text-4xl font-display justify-center flex">
+        <div className="text-4xl font-display justify-center flex items-center">
           Morning View Meadows
         </div>
         <div

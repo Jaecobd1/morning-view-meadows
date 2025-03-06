@@ -4,6 +4,7 @@ import altar from "../assets/altar.png";
 import Map from "../components/Map";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { FaPhone, FaEnvelope, FaFacebookF } from "react-icons/fa6";
+import venue from "../assets/10.jpg";
 // import brideAndGroom from "../assets/bride-and-groom.png";
 
 function About() {
@@ -89,7 +90,7 @@ function About() {
           transition={{ duration: 1.5, ease: "easeInOut" }}
           className="max-h-72 md:max-h-92 overflow-hidden"
         >
-          <img src={altar} alt="altar" className="w-full object-cover " />
+          <img src={venue} alt="altar" className="w-full object-cover " />
         </motion.div>
         <div className="flex flex-col gap-2 my-6">
           <motion.h2
