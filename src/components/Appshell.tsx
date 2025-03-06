@@ -30,7 +30,7 @@ function Appshell() {
         </div>
         <div
           onClick={() => setNavOpen(!navOpen)}
-          className="absolute top-2 right-0 text-gray-700/80"
+          className="absolute top-2 right-2 p-4 text-gray-700/80"
         >
           {navOpen ? (
             <IoClose className="size-8" />
