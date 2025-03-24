@@ -10,8 +10,8 @@ function Contact() {
     {
       title: "Phone",
       icon: <FaPhone />,
-      value: "(859) 609-1450",
-      link: "tel:8596091450",
+      value: "(859) 393-2304",
+      link: "tel:8593932304",
     },
     {
       title: "Email",
