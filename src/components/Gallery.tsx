@@ -84,6 +84,12 @@ export default function GalleryComponent() {
           </div>
         </div>
       )}
+      <iframe
+        className="w-full h-[600px]"
+        src="https://www.youtube.com/embed/M0dDGnYzJw4?si=jb-XY8I3vdZIQvMW"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      ></iframe>
     </div>
   );
 }
